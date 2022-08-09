@@ -1,5 +1,5 @@
 
-class Time extends Exception {
+class Time {
 
     // Current time of object
     private int hour;
