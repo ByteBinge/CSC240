@@ -1,4 +1,3 @@
-
 class Time {
 
     // Current time of object
@@ -17,12 +16,6 @@ class Time {
 	    this.minute = minute;
 	    this.second = second;
 	}
-
-
-
-    public int[] getTime() {
-	return new int[] {hour, minute, second};
-    }
 
     public void increment(int seconds) {
 	second += seconds;
